@@ -6,9 +6,7 @@ def wordCount(text):
   return len(text.split())
 
 def uniqueWordCount(text):
-  # return count
-  return 0
+  return len(set(text.split()))
 
 def findContent(text, word):
-  # return count
-  return 0
+  return  text.split().count(word)
